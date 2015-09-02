@@ -62,14 +62,47 @@
                                     <constraint firstAttribute="trailing" secondItem="tir-oC-pHi" secondAttribute="trailing" constant="8" id="vNU-on-7D7"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SXT-Lg-1w8">
+                                <rect key="frame" x="275" y="125" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Mzp-wC-Iak"/>
+                                    <constraint firstAttribute="height" constant="50" id="fhn-Pi-FDo"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIU-pP-8hp">
+                                <rect key="frame" x="275" y="425" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1ne-kM-hLH"/>
+                                    <constraint firstAttribute="width" constant="50" id="a5L-AQ-nom"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K9L-AG-O9Q">
+                                <rect key="frame" x="275" y="275" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="1vL-cD-8nG"/>
+                                    <constraint firstAttribute="height" constant="50" id="LtE-Nc-bK9"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="K9L-AG-O9Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1qL-aS-J3Y"/>
                             <constraint firstItem="UpV-1S-Jgc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="2nv-vy-fmU"/>
+                            <constraint firstItem="TIU-pP-8hp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.5" id="3xr-Pl-mUE"/>
+                            <constraint firstItem="TIU-pP-8hp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CdE-rf-wtN"/>
+                            <constraint firstItem="K9L-AG-O9Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LMu-d3-dsM"/>
                             <constraint firstItem="gj1-ZH-ha0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="305/500" id="LpA-B7-IEu"/>
                             <constraint firstItem="UpV-1S-Jgc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="N9B-6t-rVF"/>
                             <constraint firstAttribute="trailing" secondItem="gj1-ZH-ha0" secondAttribute="trailing" constant="20" id="aJN-UE-ogq"/>
+                            <constraint firstItem="SXT-Lg-1w8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mZZ-oJ-Qdk"/>
+                            <constraint firstItem="SXT-Lg-1w8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="nBK-QS-fWZ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gj1-ZH-ha0" secondAttribute="bottom" constant="20" id="ouR-ve-Gt4"/>
                             <constraint firstAttribute="trailing" secondItem="UpV-1S-Jgc" secondAttribute="trailing" constant="20" id="qEf-qp-Qg6"/>
                         </constraints>
